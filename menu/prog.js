@@ -8,6 +8,6 @@ function Check() {
         document.location.href = "sekretnoe.html";
     }
     else {
-        otvet.innerHTML = "ответ";
+        otvet.innerHTML = "Пароль не правильный!";
     }
 }
