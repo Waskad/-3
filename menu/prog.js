@@ -5,7 +5,7 @@ otvet = document.getElementById('ne');
 function Check() {
 
     if (log1.value == 'login' && pass1.value == 'pass') {
-        document.location.href = "sekret+.html";
+        document.location.href = "sekret.html";
     }
     else {
         otvet.innerHTML = "Пароль не правильный!";
