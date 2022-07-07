@@ -4,7 +4,7 @@ otvet = document.getElementById('ne');
 
 function Check() {
 
-    if (log1.value == 'login' && pass1.value == 'pass') {
+    if (log1.value == 'Валерия' && pass1.value == '140622') {
         document.location.href = "sekret.html";
     }
     else {
